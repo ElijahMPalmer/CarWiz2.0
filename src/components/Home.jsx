@@ -7,7 +7,7 @@ function Home() {
     <Container>
        <Section 
         backgroundImg="overtopBeach.jpg"
-        title="VIN Search"
+        title="PLEASE ENTER YOUR VEHICLES VIN"
         desc="By entering your VIN we can direct you to Manufacturer specific Owners Manuals and Maintenance forums! Our goal is to make your troubleshooting, research and maintenance tasks as hassle free as possible!"
         vinEntry='true'
       />
