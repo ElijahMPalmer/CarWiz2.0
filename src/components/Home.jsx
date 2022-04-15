@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import Section from "./Section";
 
@@ -6,6 +6,7 @@ function Home() {
   return (
     <Container>
        <Section 
+        setCurrVIN
         backgroundImg="overtopBeach.jpg"
         title="PLEASE ENTER YOUR VEHICLES VIN"
         desc="By entering your VIN we can direct you to Manufacturer specific Owners Manuals and Maintenance forums! Our goal is to make your troubleshooting, research and maintenance tasks as hassle free as possible!"
